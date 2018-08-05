@@ -1,0 +1,22 @@
+What did I do -
+
+
+
+
+
+Created appengine_config.py
+- from google.appengine.ext import vendor
+
+vendor.add('lib')
+
+Vendor lib adds libraries installed into lib folder
+
+
+Created requirements.txt in Root
+- Created install config for Flask and Werkzeug as WSGIs (webservice gateway interface)
+
+
+Removed install config for werkzeug and flask
+
+added install config for webapp2 and jinja
+
